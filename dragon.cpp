@@ -1,15 +1,20 @@
-#include<bits/stdc++.h>
-using namespace std ;
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
 
-int main (){
-    int k ,l,m,n,d ;
-    cin>>k>>l>>m>>n>>d;
-    int w = sqrt(d);
-    int flag=0 ;
-    for(int i=2 ; i<w ; i++){
-        if(w%i ==0){
+    string word ;
+    cin>>word ;
+    int l = strlen(word);
 
+    for(int i =0 , int j =1  ; i<l  , j<l+5 ;i++ , j++){
+        char name[l+5];
+        name[0]='.';
+        if(name[i]=='a' || ){
+            j--;
+            continue ;
         }
+        if(word[i]==)
+
 
     }
 
